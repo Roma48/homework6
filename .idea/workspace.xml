@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9077ecd-eb91-42ba-80aa-aabba419c742" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/homework6.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/arzamath/templates/post-type-template_metabox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/arzamath/templates/post-type-template_metabox.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/arzamath/settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/arzamath/settings.php" />
     </list>
@@ -32,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="post-type-template_metabox.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="post-type-template_metabox.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/arzamath/templates/post-type-template_metabox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="48" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-18.814816" vertical-offset="554" max-vertical-offset="1440">
+            <state line="56" column="20" selection-start="1728" selection-end="1753" vertical-scroll-proportion="0.53562653" vertical-offset="572" max-vertical-offset="1494">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/arzamath/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="163" column="4" selection-start="4319" selection-end="4319" vertical-scroll-proportion="0.6735187" vertical-offset="2377" max-vertical-offset="3204">
+            <state line="166" column="26" selection-start="4492" selection-end="4492" vertical-scroll-proportion="-22.62963" vertical-offset="2377" max-vertical-offset="3222">
               <folding />
             </state>
           </provider>
@@ -63,8 +57,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/plugins/arzamath/templates/post-type-template_metabox.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/arzamath/settings.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/arzamath/templates/post-type-template_metabox.php" />
       </list>
     </option>
   </component>
@@ -344,16 +338,16 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="854" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/arzamath/templates/post-type-template_metabox.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/arzamath/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="48" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-18.814816" vertical-offset="554" max-vertical-offset="1440">
+        <state line="166" column="26" selection-start="4492" selection-end="4492" vertical-scroll-proportion="-22.62963" vertical-offset="2377" max-vertical-offset="3222">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/arzamath/settings.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/arzamath/templates/post-type-template_metabox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="4" selection-start="4319" selection-end="4319" vertical-scroll-proportion="0.6735187" vertical-offset="2377" max-vertical-offset="3204">
+        <state line="56" column="20" selection-start="1728" selection-end="1753" vertical-scroll-proportion="0.53562653" vertical-offset="572" max-vertical-offset="1494">
           <folding />
         </state>
       </provider>

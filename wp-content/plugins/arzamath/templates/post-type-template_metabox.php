@@ -37,7 +37,7 @@
                 <label for="meta_a">Text</label>
             </th>
             <td>
-                <input type="button" id="button1" name="button" value="Submit (AJAX)" onclick="buttonClicked()" />
+                <input type="button" id="button"  value=" Update " onclick="buttonClicked()" />
             </td>
         </tr>
 
@@ -48,13 +48,16 @@
 
         jQuery ( function buttonClicked ( $ ) {
 
-            $( " #button1 " ).click( function () {
+            $( " #button " ).click( function () {
                 $a = $( "#meta_a" ).val();
                 $b = $( "#meta_b" ).val();
+                $c = <?php the_ID(); ?>;
+
                 var data = {
                     'action'   : 'my_action',
                     'text'     : $a,
-                    'select'   : $b
+                    'select'   : $b,
+                    'post'     : $c
                 };
 
                 $.post( ajaxurl, data, function ( response ) {
