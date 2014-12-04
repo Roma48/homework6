@@ -1,4 +1,5 @@
-<table> 
+<table>
+
     <tr valign="top">
         <th class="metabox_label_column">
             <label for="meta_a">Text</label>
@@ -29,7 +30,45 @@
                 } ?>
 
             </select>
-             </td>
+        </td>
     </tr>
+        <tr valign="top">
+            <th class="metabox_label_column">
+                <label for="meta_a">Text</label>
+            </th>
+            <td>
+                <input type="button" id="button1" name="button" value="Submit (AJAX)" onclick="buttonClicked()" />
+            </td>
+        </tr>
+
 
 </table>
+
+<script type="text/javascript">
+
+        jQuery ( function buttonClicked ( $ ) {
+
+            $( " #button1 " ).click( function () {
+                $a = $( "#meta_a" ).val();
+                $b = $( "#meta_b" ).val();
+                var data = {
+                    'action'   : 'my_action',
+                    'text'     : $a,
+                    'select'   : $b
+                };
+
+                $.post( ajaxurl, data, function ( response ) {
+                    alert( response );
+                });
+
+            });
+
+        });
+
+</script>
+
+
+
+
+
+
